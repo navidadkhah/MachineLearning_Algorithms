@@ -64,6 +64,25 @@ The whole steps are as follows:
    <img alt="Confusion Matrix" src="https://github.com/user-attachments/assets/281fb22d-ad0a-4879-a050-3f2245ef9819" width="400">
   </p>
 
-> Note: In the Confusion Matrix, we try to increase True-Positive and True-Negative. 
+> Note: In the Confusion Matrix, we try to increase True-Positive and True-Negative.
+
+
+## Polynomial Regression
+In this assignment, we have insurance information and we want to implement a regression model.<br>
+First of all, we start with preprocessing and use the one-hot encoder for columns. we plot the regression line for the three train-test-split sizes and we realize the best size for it is 80 percent because it reduces the cost. In the end, we measure MSE and R-squared:
+<img alt="plot" src="https://github.com/user-attachments/assets/7e13e9f6-23b9-4742-8d27-89c607db8ee8" width="600">
+<img alt="Messure" src="https://github.com/user-attachments/assets/7ed2fad7-c05c-4843-aa8a-603c82507f3e" width="300">
+
+
+
+
+Now, we want to increase the accuracy. For this, we use Polynomial Reggresion. we add ```bmi^2``` column to the dataset.<br>
+The result is as follows:
+<br>
+<img alt="plot" src="https://github.com/user-attachments/assets/a2ffa8e7-029c-49ac-953d-cbad20cfb7ba" width="600">
+<img alt="Messure" src="https://github.com/user-attachments/assets/d043859b-3b8d-4d68-8f0d-06886d75ef99" width="300">
+
+If we compare these together, we realize that when we add a polynomial feature, we have a better model. our R-squared ***increased*** and MSE ***decreased*** which is good.
+
 
 
