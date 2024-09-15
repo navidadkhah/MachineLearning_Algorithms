@@ -84,5 +84,17 @@ The result is as follows:
 
 If we compare these together, we realize that when we add a polynomial feature, we have a better model. our R-squared ***increased*** and MSE ***decreased*** which is good.
 
+## DBSCAN
+Finally, DBCSAN or density-based clustering non-parametric algorithm is an Unsupervised Algorithm. In this algorithm, we cluster classes with some techniques.
+Firstly, we initialize two hyperparameters, ```eps``` and  ```min_samples```.<br>
+These hyperparameters, determine the distance of points to each other and the number of minimum samples we want to find. with these two, we can find different clusters and noise.<br>
+We have two datasets that we want to cluster.
+- In the first dataset, we have two clusters which are yellow and green with purple noises:
 
+  <img alt="plot" src="https://github.com/user-attachments/assets/663b0f49-9e99-4361-b3f6-1d5eb710ac96" width="400">
+  <img alt="plot" src="https://github.com/user-attachments/assets/70cf996d-8b1d-4343-b2c0-15d43f8d6925" width="400">
 
+- In the second dataset, we have two clusters which are yellow:
+
+  <img alt="plot" src="https://github.com/user-attachments/assets/73105ceb-6a14-4d00-9a6d-99dd23b2e204" width="400">
+  <img alt="plot" src="https://github.com/user-attachments/assets/d6e04f0f-9465-4d3a-806b-acbb614be6ab" width="400">
