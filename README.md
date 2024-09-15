@@ -25,7 +25,6 @@ In part C, I trained data using ``` RANDOM FOREST``` and ```Gradient Boosting```
     <img alt="Decision Tree" src="https://github.com/user-attachments/assets/b05c376f-212b-497d-a246-969c5699b75f" width="330">
 </p>
 
-<br>
-Also, you can find the Dataset as a numpy file and use it for your project.
+Also, you can find the Dataset as a `numpy` file and use it for your project.
 
 
