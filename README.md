@@ -1,5 +1,4 @@
-# Machine Learning
-# Algorithms
+# Machine Learning Algorithms
 In this repository, I implemented Supervised and Unsupervised algorithms. 
 - Supervised algorithms contain KNN, SVM, Decision Tree and, type of Regression.
 - Unsupervised contains DBSCAN, an algorithm for clustering.<br>
