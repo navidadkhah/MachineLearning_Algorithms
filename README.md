@@ -33,4 +33,14 @@ In part C, I trained data using ``` RANDOM FOREST``` and ```Gradient Boosting```
 
 - Also, you can find the Dataset as a `numpy` file and use it for your project.
 
+## KNN
+Implement the K-Nearest Neighbors (KNN) algorithm from scratch on the Disease dataset. The model's accuracy on the test data is reported using the functions from the Scikit-learn library. The ROC curve for the Trained KNN model is plotted. The ROC (Receiver Operating Characteristic) curve is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
+First of all, We need to preprocess our data. After that, we implemented ```KNN``` from scratch and split train and test data.
+
+<p align="center">
+   <img alt="ROC Plot" src="https://github.com/user-attachments/assets/8f20038d-8e6e-4d36-be5d-64454f52518c" width="400">
+</p>
+
+The ROC plot is used to determine how much our model predicted well. The closer the AUC is to 1, the better the model's performance.
+
 
