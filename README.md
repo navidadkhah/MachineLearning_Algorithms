@@ -12,7 +12,7 @@ In the notebook, In part B, I implemented the Decision Tree Algorithm and change
 </details>
 
 <p align="center">
-    <img alt="Min Samples Leaf" src="https://github.com/user-attachments/assets/018aa5b4-35b2-4a50-ab76-c16e6c82cc4c" width="410">
+    <img alt="Min Samples Leaf" src="https://github.com/user-attachments/assets/018aa5b4-35b2-4a50-ab76-c16e6c82cc4c" width="400">
     <img alt="Max Depth" src="https://github.com/user-attachments/assets/605fb2eb-c6c2-474e-904c-9f5834ec9cbf" width="400">
 </p>
 
