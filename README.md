@@ -1,4 +1,10 @@
 # Machine Learning
+# Algorithms
+In this repository, I implemented Supervised and Unsupervised algorithms. 
+- Supervised algorithms contain KNN, SVM, Decision Tree and, type of Regression.
+- Unsupervised contains DBSCAN, an algorithm for clustering.<br>
+
+First of all, I describe Supervised algorithms and then, Unsupervised:
 ## Decision Tree
 In the notebook, In part B, I implemented the Decision Tree Algorithm and changed Hyperparameters such as ```Max Depth``` and ```Min Samples Leaf```:
  <table>
