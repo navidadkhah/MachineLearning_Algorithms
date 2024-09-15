@@ -48,4 +48,22 @@ First of all, We need to preprocess our data. After that, we implemented ```KNN`
 
 The ROC plot is used to determine how much our model predicted well. The closer the AUC is to 1, the better the model's performance.
 
+## SVM
+SVM or Support Vector Machine is a Supervised learning algorithm used for both classification and Regression. In SVM, our goal is to find the best decision boundary for separating classes. Now, we have a dataset. it describes pieces of information about the history of strokes between 43400 people.
+The whole steps are as follows:
+- Reading the ```csv``` dataset.
+- Feature Engineering such as filling null rows and one hot their columns.
+- Normalize the data.
+- Splitting train and test data.
+- Now, we are checking about data balancing, To fix this problem, we use the ```Data Augmentation `` method.
+- Creating a model with its associated library.
+- Plot ROC and Confusion Matrix.
+
+  <p align="center">
+   <img alt="ROC Plot" src="https://github.com/user-attachments/assets/9196e99d-63d2-4901-b000-7a99bf1d5527" width="400">
+   <img alt="Confusion Matrix" src="https://github.com/user-attachments/assets/281fb22d-ad0a-4879-a050-3f2245ef9819" width="400">
+  </p>
+
+> Note: In the Confusion Matrix, we try to increase True-Positive and True-Negative. 
+
 
